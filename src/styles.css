@@ -1,0 +1,155 @@
+/* 🌼 Pollen Roulette: Stylesheet */
+
+/* Base layout and typography */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fefdf9;
+  overflow: hidden;
+}
+
+/* App container */
+.app-shell {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header bar */
+.app-header {
+  background: linear-gradient(to right, #dcedc8, #b2dfdb);
+  padding: 14px 26px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-bottom: 2px solid #81c784;
+  color: #1b5e20;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+}
+
+/* Layout setup */
+.main-layout {
+  display: flex;
+  height: calc(100% - 60px);
+  width: 100%;
+}
+
+/* Sidebar panel */
+.filter-panel {
+  width: 320px;
+  background: #fffaf4;
+  padding: 20px 15px;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.06);
+  overflow-y: auto;
+  z-index: 999;
+}
+
+/* Map container */
+.map-container {
+  flex-grow: 1;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+/* Ensure Leaflet map fills area */
+.leaflet-container {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* Route planner box */
+.route-planner {
+  position: absolute;
+  bottom: 20px;
+  left: 340px;
+  background: white;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #c8e6c9;
+  z-index: 999;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+}
+
+/* Slider & labels */
+.slider-label {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+}
+
+/* Fun interpretation tip box */
+.sneeze-interpretation {
+  margin-top: 15px;
+  background: #f1f8e9;
+  border-left: 4px solid #aed581;
+  padding: 12px 10px;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #33691e;
+}
+
+.sneeze-interpretation.red {
+  background: #ffebee;
+  border-left: 4px solid #ef5350;
+  color: #b71c1c;
+}
+
+.sneeze-interpretation.orange {
+  background: #fff3e0;
+  border-left: 4px solid #ffb74d;
+  color: #ef6c00;
+}
+
+.chill-icon {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+
+.filter-panel-inner {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.slider-block input[type="range"] {
+  width: 100%;
+}
+
+.legend-section {
+  margin-top: 10px;
+}
+
+.legend-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.6;
+}
+
+.route-box {
+  margin-top: 20px;
+  padding: 10px;
+  background: #e8f5e9;
+  border-radius: 8px;
+  border: 1px solid #c8e6c9;
+}
+.route-box button {
+  margin-top: 8px;
+  padding: 6px 10px;
+  border: none;
+  background: #66bb6a;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}

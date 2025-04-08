@@ -1,0 +1,110 @@
+.filter-panel-inner {
+  padding: 15px;
+  background-color: #fffef8;
+  height: 100%;
+  overflow-y: auto;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.slider-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slider-label {
+  font-weight: 600;
+  color: #444;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 0;
+}
+
+.sneeze-interpretation {
+  font-style: italic;
+  font-size: 13px;
+  color: #555;
+  padding: 4px 8px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.sneeze-interpretation.orange {
+  background: #fff3e0;
+  color: #e65100;
+  font-weight: 500;
+}
+
+.sneeze-interpretation.red {
+  background: #ffebee;
+  color: #c62828;
+  font-weight: 600;
+}
+
+.legend-section {
+  margin-top: 10px;
+}
+
+.legend-section h4 {
+  margin: 0 0 6px;
+  font-size: 15px;
+  color: #333;
+}
+
+.legend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend-list li {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.route-planner-box {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+}
+
+.route-planner-box h4 {
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.route-planner-box button {
+  padding: 6px 10px;
+  background-color: #aed581;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.route-planner-box button:hover {
+  background-color: #9ccc65;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.attribution a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}

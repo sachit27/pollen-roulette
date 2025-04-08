@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pollen-roulette/static/css/main.5a1150ae.css",
+    "main.js": "/pollen-roulette/static/js/main.74f35bd2.js",
+    "index.html": "/pollen-roulette/index.html",
+    "main.5a1150ae.css.map": "/pollen-roulette/static/css/main.5a1150ae.css.map",
+    "main.74f35bd2.js.map": "/pollen-roulette/static/js/main.74f35bd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1150ae.css",
+    "static/js/main.74f35bd2.js"
+  ]
+}
