@@ -27,7 +27,7 @@ Zürich Pollen Roulette is a playful, data-driven web app that helps allergy-pro
 
 This app proudly builds on Zürich’s amazing open data ecosystem, including:
 
-- 🟢 **Fine-grained tree, canopy cover, and species data** from [Stadt Zürich Open Data](https://data.stadt-zuerich.ch/)
+- 🟢 Fine-grained tree, canopy cover, and species data from [Stadt Zürich Open Data](https://data.stadt-zuerich.ch/), licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 - 🗺️ **OpenStreetMap (OSM)** for base layers and park/garden information
 - 📐 Spatial aggregation and scoring of tree pollen potential across the city
 
